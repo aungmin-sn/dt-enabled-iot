@@ -1,0 +1,44 @@
+{
+  "experiment_id": "EXP_RQ3_CO2_RUN15_PHYS_20261010_141227",
+  "rows_written": 360,
+  "run_index": [
+    {
+      "repetition": 1,
+      "split_role": "HELD_OUT_TEST",
+      "target_duty_order": [
+        100,
+        80,
+        60
+      ],
+      "observed_duty_order": [
+        100,
+        80,
+        60
+      ],
+      "status_code": 0,
+      "source_evidence_dir": "C:\\Users\\AMN\\Downloads\\___971\\Hardware test\\RQ1_RQ4_DT\\IndoorTwin_RQ3_PhysicalReplay_EvaluationContract_v1.0\\IndoorTwin_RQ3_PhysicalReplay_EvaluationContract_v1.0\\data\\experiments\\rq3\\EXP_RQ3_CO2_RUN15_PHYS_20261010_141227\\raw_runs\\rep_1\\rq2\\EXP_RQ2_MATCHED_20261010_141227",
+      "source_rows": 1370,
+      "canonical_rows": 360,
+      "observed_start_co2_ppm": 921.0,
+      "source_stop_reason": "COMPLETE",
+      "resumed": false,
+      "resumed_from_campaign": null
+    }
+  ],
+  "initial_target_ppm": 950,
+  "initial_band_ppm": 40,
+  "qualification_timeout_min": 90,
+  "collection_profile": "RUN15_OPENING_RECOVERY",
+  "configured_repetitions": [
+    1
+  ],
+  "split_role_override": "HELD_OUT_TEST",
+  "resumed_from_campaign": null,
+  "resumed_repetitions": [],
+  "notes": [
+    "Collection wraps the existing matched-start runner and normalizes field names.",
+    "Only qualified duty-phase samples enter the canonical physical trace.",
+    "Balanced duty order and complete 10-minute trials are enforced before acceptance.",
+    "Checkpointed repetitions are copied into this campaign and revalidated before acceptance."
+  ]
+}

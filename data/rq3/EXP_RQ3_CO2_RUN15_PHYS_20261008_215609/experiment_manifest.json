@@ -1,0 +1,39 @@
+{
+  "experiment_id": "EXP_RQ3_CO2_RUN15_PHYS_20261008_215609",
+  "scenario_id": "RQ3-CO2-MASS-BALANCE-COLLECTION",
+  "evaluation": "anomaly_detection",
+  "phase": "PHYSICAL_CONFIRMATORY_COLLECTION",
+  "run_mode": "LIVE_WRAPPER",
+  "collection_profile": "RUN15_OPENING_RECOVERY",
+  "canonical_window_s": 60,
+  "co2_initial_target_ppm": 950,
+  "co2_initial_band_ppm": 40,
+  "co2_stability_window_s": 60,
+  "co2_qualification_timeout_min": 90,
+  "co2_trial_minutes": 10,
+  "co2_sampling_interval_s": 5,
+  "co2_stop_ppm": 1500,
+  "repetitions": 1,
+  "resumed_from_campaign": null,
+  "resumed_repetitions": [],
+  "detectors": [
+    "rule_baseline",
+    "fan_residual",
+    "mass_balance_co2_residual",
+    "xgboost_co2_recursive_residual"
+  ],
+  "claim_boundary": [
+    "Matched-start CO2 runs are physical evidence for parameterization/validation/testing.",
+    "Unexpected-response anomaly intervals are replay-labelled and never overwrite physical rows.",
+    "Duty order is balanced across repetitions and enforced by the source runner.",
+    "A resumed repetition is accepted only after the same completeness and protocol checks as a new repetition.",
+    "A one-repetition confirmatory profile is held out from fitting and threshold selection."
+  ],
+  "opening_recovery": {
+    "prerun_max_ppm": 750.0,
+    "prerun_duty_percent": 100,
+    "prerun_timeout_min": 30.0,
+    "prerun_record": "rq2_prerun_purge.csv, excluded from the comparison record",
+    "recorded_sequence": "Fan-off rise from the pre-run CO2 until the stable 950 ppm start, then the selected duty order with the usual qualification between duties."
+  }
+}

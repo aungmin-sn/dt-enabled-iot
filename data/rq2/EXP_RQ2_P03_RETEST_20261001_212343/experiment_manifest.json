@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP_RQ2_P03_RETEST_20261001_212343",
+  "scenario_id": "RQ2-P03-RETEST",
+  "research_question": "RQ2",
+  "phase": "RETEST",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "fusion": "IndoorTwin RQ2 Live Integration v1.1",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-01T08:23:43.847915+00:00",
+  "end_time": "2026-10-01T08:23:53.556217+00:00"
+}

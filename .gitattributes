@@ -1,0 +1,12 @@
+* -text
+*.py text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.json text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+SHA256SUMS text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+data/** -text -whitespace
+*.csv -text -whitespace

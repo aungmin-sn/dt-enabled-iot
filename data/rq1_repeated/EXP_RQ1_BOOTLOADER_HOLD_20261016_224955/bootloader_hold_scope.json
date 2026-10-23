@@ -1,0 +1,61 @@
+{
+  "procedure": "RQ1 bootloader-hold evaluation",
+  "combines": [
+    "run-1-state-freshness",
+    "run-2-occupancy-dropout",
+    "run-8-all-node-power-cycle",
+    "run-9-rq1-repeated-validation"
+  ],
+  "dropout_mode": "BOOTLOADER_HOLD",
+  "physical_power_cut_used": false,
+  "repetitions": 3,
+  "cycles": 18,
+  "registry_version": "room01-entity-registry-v1.3",
+  "state_property_classes": {
+    "DOOR-01.state": "FAST",
+    "WINDOW-01.state": "FAST",
+    "HEATER-01.state": "MEDIUM"
+  },
+  "required_wait_s": {
+    "ENV-IN-01": 35,
+    "ENV-OUT-01": 35,
+    "OCC-IN-01": 35,
+    "VENT-CTRL-01": 15,
+    "HEAT-MON-01": 35,
+    "VIB-FAN-01": 15
+  },
+  "nodes": [
+    "ENV-IN-01",
+    "ENV-OUT-01",
+    "OCC-IN-01",
+    "HEAT-MON-01",
+    "VIB-FAN-01",
+    "VENT-CTRL-01"
+  ],
+  "ports": {
+    "ENV-IN-01": [
+      "COM3",
+      "esp32s3"
+    ],
+    "ENV-OUT-01": [
+      "COM16",
+      "esp32s3"
+    ],
+    "OCC-IN-01": [
+      "COM19",
+      "esp32s3"
+    ],
+    "HEAT-MON-01": [
+      "COM14",
+      "esp32c3"
+    ],
+    "VIB-FAN-01": [
+      "COM39",
+      "esp32s3"
+    ],
+    "VENT-CTRL-01": [
+      "COM7",
+      "esp32s3"
+    ]
+  }
+}

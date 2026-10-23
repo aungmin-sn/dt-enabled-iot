@@ -1,0 +1,14 @@
+{
+  "experiment_id": "EXP_RQ2_PHYS_V11_20261001_190449",
+  "scenario_id": "RQ2-CONTROLLED-PHYSICAL-PILOT-V1.0",
+  "research_question": "RQ2",
+  "phase": "PILOT",
+  "registry_version": "room01-entity-registry-v1.2",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "fusion": "IndoorTwin RQ2 Live Integration v1.1",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-01T06:04:49.120839+00:00",
+  "end_time": "2026-10-01T06:11:07.131781+00:00"
+}

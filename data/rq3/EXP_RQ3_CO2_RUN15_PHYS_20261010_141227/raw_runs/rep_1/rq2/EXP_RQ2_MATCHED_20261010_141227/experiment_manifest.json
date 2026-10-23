@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP_RQ2_MATCHED_20261010_141227",
+  "scenario_id": "RQ2-MATCHED-START-V1",
+  "evaluation": "room_state",
+  "phase": "MATCHED_START",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "fusion": "IndoorTwin RQ2 Live Integration v1.1",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-10T01:12:27.666063+00:00",
+  "end_time": "2026-10-10T03:06:59.715182+00:00"
+}

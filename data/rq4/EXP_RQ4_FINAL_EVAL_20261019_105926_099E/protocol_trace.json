@@ -1,0 +1,349 @@
+[
+  {
+    "event": "SESSION_START",
+    "session": 1
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM0_01",
+    "command_id": "CMD-F8CB46D93BAE",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM0_01",
+    "command_id": "CMD-F8CB46D93BAE",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM30_02",
+    "command_id": "CMD-16BF0836C63E",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 30
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM30_02",
+    "command_id": "CMD-16BF0836C63E",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 30,
+    "rpm": 1000.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM50_03",
+    "command_id": "CMD-D6B357D2ADC4",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 50
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM50_03",
+    "command_id": "CMD-D6B357D2ADC4",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 50,
+    "rpm": 1622.4
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM70_04",
+    "command_id": "CMD-6D041BE976DF",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 70
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM70_04",
+    "command_id": "CMD-6D041BE976DF",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 70,
+    "rpm": 2182.3
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM100_05",
+    "command_id": "CMD-3575D1ECEDCC",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 100
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM100_05",
+    "command_id": "CMD-3575D1ECEDCC",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 100,
+    "rpm": 2917.5
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-EXH_PWM0_06",
+    "command_id": "CMD-C19949CEEF93",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-EXH_PWM0_06",
+    "command_id": "CMD-C19949CEEF93",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM0_07",
+    "command_id": "CMD-C16C2A5D09A7",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM0_07",
+    "command_id": "CMD-C16C2A5D09A7",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM30_08",
+    "command_id": "CMD-71D2C1DF8AC1",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 30
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM30_08",
+    "command_id": "CMD-71D2C1DF8AC1",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 30,
+    "rpm": 990.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM50_09",
+    "command_id": "CMD-1FD66103CFCD",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 50
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM50_09",
+    "command_id": "CMD-1FD66103CFCD",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 50,
+    "rpm": 1620.8
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM70_10",
+    "command_id": "CMD-D068E5D833F4",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 70
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM70_10",
+    "command_id": "CMD-D068E5D833F4",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 70,
+    "rpm": 2211.4
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM100_11",
+    "command_id": "CMD-471067433AA4",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 100
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM100_11",
+    "command_id": "CMD-471067433AA4",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 100,
+    "rpm": 2895.5
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-01_PWM0_12",
+    "command_id": "CMD-36FC4A753337",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-01_PWM0_12",
+    "command_id": "CMD-36FC4A753337",
+    "target_entity": "FAN-IN-01",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM0_13",
+    "command_id": "CMD-EE7ED7CFF819",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM0_13",
+    "command_id": "CMD-EE7ED7CFF819",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM30_14",
+    "command_id": "CMD-A7A14528E39A",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 30
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM30_14",
+    "command_id": "CMD-A7A14528E39A",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 30,
+    "rpm": 996.1
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM50_15",
+    "command_id": "CMD-E06D9F2484DA",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 50
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM50_15",
+    "command_id": "CMD-E06D9F2484DA",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 50,
+    "rpm": 1580.3
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM70_16",
+    "command_id": "CMD-59BCFD42F53C",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 70
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM70_16",
+    "command_id": "CMD-59BCFD42F53C",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 70,
+    "rpm": 2126.0
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM100_17",
+    "command_id": "CMD-C3071C772145",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 100
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM100_17",
+    "command_id": "CMD-C3071C772145",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 100,
+    "rpm": 2886.9
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "S1_FAN-IN-02_PWM0_18",
+    "command_id": "CMD-A6F661B0A771",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "S1_FAN-IN-02_PWM0_18",
+    "command_id": "CMD-A6F661B0A771",
+    "target_entity": "FAN-IN-02",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "SESSION_COMPLETE",
+    "session": 1,
+    "commands": 18
+  },
+  {
+    "event": "N1_REJECTED",
+    "passed": true,
+    "reason": "PWM_OUT_OF_RANGE"
+  },
+  {
+    "event": "OPERATOR_PROMPT",
+    "step_id": "n2-vent-offline",
+    "title": "Take VENT-CTRL-01 offline",
+    "body": "All fans are stopped. Disconnect VENT-CTRL-01 power only. Confirm when the controller is offline."
+  },
+  {
+    "event": "N2_ACK_TIMEOUT",
+    "command_id": "CMD-0593F6C6D28B",
+    "elapsed_s": 2.016
+  },
+  {
+    "event": "OPERATOR_PROMPT",
+    "step_id": "n2-vent-restore",
+    "title": "Restore VENT-CTRL-01",
+    "body": "Restore VENT-CTRL-01 power. Confirm when the controller is back online."
+  },
+  {
+    "event": "COMMAND_PUBLISHED",
+    "step_label": "N2_RECOVERY_STOP",
+    "command_id": "CMD-2E9E54F11B45",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0
+  },
+  {
+    "event": "COMMAND_VERIFIED",
+    "step_label": "N2_RECOVERY_STOP",
+    "command_id": "CMD-2E9E54F11B45",
+    "target_entity": "FAN-EXH",
+    "pwm_pct": 0,
+    "rpm": 0.0
+  },
+  {
+    "event": "N2_RECOVERY_VERIFIED",
+    "step_label": "N2_RECOVERY_STOP"
+  },
+  {
+    "event": "OPERATOR_PROMPT",
+    "step_id": "n3-fan-exh-power-off",
+    "title": "Disconnect FAN-EXH power",
+    "body": "Disconnect only FAN-EXH electrical power. Leave VENT-CTRL-01 online. Do not obstruct the blades. Confirm when FAN-EXH power is off."
+  },
+  {
+    "event": "N3_NOT_VERIFIED",
+    "command_id": "CMD-8ECFEF92679E",
+    "outcome": "PHYSICAL_TIMEOUT/NOT_VERIFIED",
+    "passed": true
+  },
+  {
+    "event": "N3_RECOVERY_COMMAND",
+    "command_id": "CMD-A06F06F58DC8",
+    "step_label": "N3_RECOVERY_STOP"
+  },
+  {
+    "event": "OPERATOR_PROMPT",
+    "step_id": "n3-fan-exh-power-on",
+    "title": "Restore FAN-EXH power",
+    "body": "Recovery 0% has been sent. Restore FAN-EXH electrical power now. Confirm when power is restored."
+  },
+  {
+    "event": "N3_RECOVERY_VERIFIED",
+    "command_id": "CMD-A06F06F58DC8"
+  }
+]

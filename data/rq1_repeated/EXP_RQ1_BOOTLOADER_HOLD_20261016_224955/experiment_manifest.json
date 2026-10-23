@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP_RQ1_BOOTLOADER_HOLD_20261016_224955",
+  "scenario_id": "RQ1-BOOTLOADER-HOLD-ALL-NODES",
+  "evaluation": "state_freshness",
+  "phase": "PILOT",
+  "registry_version": "room01-entity-registry-v1.3",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-16T09:49:55.754494+00:00",
+  "end_time": "2026-10-16T10:00:57.713300+00:00"
+}

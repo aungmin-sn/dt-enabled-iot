@@ -1,0 +1,20 @@
+{
+  "step_id": "RQ2-P03",
+  "pass": true,
+  "observed": "VENTILATION_ALL_RUNNING",
+  "latency_ms": 2018,
+  "fans": {
+    "FAN-EXH": {
+      "pwm": 30.0,
+      "rpm": 1009.9
+    },
+    "FAN-IN-01": {
+      "pwm": 30.0,
+      "rpm": 772.3
+    },
+    "FAN-IN-02": {
+      "pwm": 30.0,
+      "rpm": 861.4
+    }
+  }
+}

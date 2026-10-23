@@ -1,0 +1,4 @@
+recall_at_least_0.80,precision_at_least_0.80,f1_at_least_0.80,median_delay_at_most_30s,max_delay_at_most_60s,all_retained_cases_detected,both_severities_where_both_retained,detection_nondecreasing_with_severity,meets_s07_adequacy,collection
+True,False,False,True,True,True,True,True,False,"8 October 2026, 21:56"
+True,False,False,True,True,True,True,True,False,"9 October 2026, 12:39"
+True,False,False,True,True,True,True,True,False,"10 October 2026, 14:12"

@@ -1,0 +1,6 @@
+check_id,step_label,target_entity,requested_pwm_pct,command_id,command_created,mqtt_published,expected_outcome,observed_outcome,passed,detail
+N1_OUT_OF_RANGE_COMMAND_REQUEST,N1_OUT_OF_RANGE_COMMAND_REQUEST,FAN-EXH,101,,false,false,LOCAL_REJECT_BEFORE_COMMAND_OR_PUBLISH,PWM_OUT_OF_RANGE,true,input validation only; 101% was not sent to a fan
+N2_ACK_TIMEOUT,N2_ACK_TIMEOUT,FAN-EXH,0,CMD-0593F6C6D28B,true,true,ACK_TIMEOUT,ACK_TIMEOUT,true,no matching ACK after 2.016s
+N2_ACK_TIMEOUT,N2_RECOVERY_STOP,FAN-EXH,0,CMD-2E9E54F11B45,true,true,STOPPED_VERIFIED,STOPPED_VERIFIED,true,separately labelled recovery 0% command
+N3_ACK_WITHOUT_ROTATION,N3_ACK_WITHOUT_ROTATION,FAN-EXH,50,CMD-8ECFEF92679E,true,true,PHYSICAL_TIMEOUT/NOT_VERIFIED,PHYSICAL_TIMEOUT/NOT_VERIFIED,true,fresh post-ACK samples=15; window_s=15.000
+N3_ACK_WITHOUT_ROTATION,N3_RECOVERY_STOP,FAN-EXH,0,CMD-A06F06F58DC8,true,true,STOPPED_VERIFIED,STOPPED_VERIFIED,true,recovery 0% was sent before fan power was restored

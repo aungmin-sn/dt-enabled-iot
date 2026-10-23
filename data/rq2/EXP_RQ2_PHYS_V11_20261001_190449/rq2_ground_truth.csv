@@ -1,0 +1,11 @@
+step_id,step_name,manual_action,action_time,ground_truth
+RQ2-P01,Unoccupied fans off,Ensure room is unoccupied and all fans are off.,2026-10-01T06:06:04.807998+00:00,"room unoccupied, fans commanded 0%"
+RQ2-P02,Occupant enters,Enter the room and remain within occupancy sensor coverage.,2026-10-01T06:06:24.829443+00:00,occupant entered and remained in coverage
+RQ2-P03,All fans run,Command all three fans to a nonzero operating point.,2026-10-01T06:06:30.525567+00:00,all three fans commanded to 30%
+RQ2-P04,Exhaust commanded no rotation,Create a safe exhaust-fan non-response condition while command remains nonzero.,2026-10-01T06:09:00.718339+00:00,"exhaust fan power disconnected, PWM still nonzero"
+RQ2-P05,Exhaust restored,Restore normal exhaust-fan operation.,2026-10-01T06:09:25.310508+00:00,exhaust fan power restored
+RQ2-P06,Window open,Open the window.,2026-10-01T06:09:51.248986+00:00,window physically opened
+RQ2-P07,Window closed,Close the window and ensure door is closed.,2026-10-01T06:10:07.347585+00:00,window and door physically closed
+RQ2-P08,Heater level 1,Set heater to level 1 with room occupied and known openings closed.,2026-10-01T06:10:24.887372+00:00,"heater set to level 1, occupied, openings closed"
+RQ2-P09,Heater off,Turn heater off.,2026-10-01T06:10:40.549687+00:00,heater physically turned off
+RQ2-P10,Occupant leaves,Leave the room and wait for occupancy to become absent.,2026-10-01T06:11:07.093453+00:00,occupant left the room

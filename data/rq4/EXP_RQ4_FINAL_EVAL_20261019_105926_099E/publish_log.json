@@ -1,0 +1,134 @@
+[
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-F8CB46D93BAE\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T21:59:33.779266+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-16BF0836C63E\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 30.0, \"issued_at\": \"2026-10-18T21:59:40.801023+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-D6B357D2ADC4\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 50.0, \"issued_at\": \"2026-10-18T21:59:48.975855+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-6D041BE976DF\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 70.0, \"issued_at\": \"2026-10-18T21:59:55.996005+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-3575D1ECEDCC\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 100.0, \"issued_at\": \"2026-10-18T22:00:03.168758+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-C19949CEEF93\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:00:09.229855+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-C16C2A5D09A7\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:00:16.507098+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-71D2C1DF8AC1\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 30.0, \"issued_at\": \"2026-10-18T22:00:23.375392+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-1FD66103CFCD\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 50.0, \"issued_at\": \"2026-10-18T22:00:30.392165+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-D068E5D833F4\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 70.0, \"issued_at\": \"2026-10-18T22:00:36.505390+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-471067433AA4\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 100.0, \"issued_at\": \"2026-10-18T22:00:42.868916+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-01/command",
+    "payload": "{\"command_id\": \"CMD-36FC4A753337\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-01\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:00:49.787651+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-EE7ED7CFF819\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:00:56.905066+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-A7A14528E39A\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 30.0, \"issued_at\": \"2026-10-18T22:01:03.213322+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-E06D9F2484DA\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 50.0, \"issued_at\": \"2026-10-18T22:01:12.352432+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-59BCFD42F53C\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 70.0, \"issued_at\": \"2026-10-18T22:01:18.416096+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-C3071C772145\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 100.0, \"issued_at\": \"2026-10-18T22:01:24.527129+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-in-02/command",
+    "payload": "{\"command_id\": \"CMD-A6F661B0A771\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-IN-02\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:01:30.633450+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-0593F6C6D28B\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:01:55.795723+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-2E9E54F11B45\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:02:14.685104+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-8ECFEF92679E\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 50.0, \"issued_at\": \"2026-10-18T22:02:27.531297+00:00\"}",
+    "qos": 1,
+    "retain": false
+  },
+  {
+    "topic": "indoorTwin/room01/fans/fan-exh/command",
+    "payload": "{\"command_id\": \"CMD-A06F06F58DC8\", \"experiment_id\": \"EXP_RQ4_FINAL_EVAL_20261019_105926_099E\", \"target_entity\": \"FAN-EXH\", \"action\": \"SET_PWM\", \"pwm_pct\": 0.0, \"issued_at\": \"2026-10-18T22:02:42.834557+00:00\"}",
+    "qos": 1,
+    "retain": false
+  }
+]

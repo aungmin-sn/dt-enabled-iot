@@ -1,0 +1,83 @@
+{
+  "experiment_id": "EXP_RQ2_CO2_V11_20261004_211358",
+  "stop_reason": "COMPLETE",
+  "phases": [
+    {
+      "phase_id": "occupied_accumulation",
+      "samples": 360,
+      "duration_s": 1796.1,
+      "start_co2": 544.0,
+      "end_co2": 789.0,
+      "mean_co2": 668.0,
+      "slope_ppm_min": 8.18,
+      "mean_delta": 242.9,
+      "mean_rpm": 0.0
+    },
+    {
+      "phase_id": "opening_assisted",
+      "samples": 120,
+      "duration_s": 595.3,
+      "start_co2": 464.0,
+      "end_co2": 455.0,
+      "mean_co2": 457.9,
+      "slope_ppm_min": -0.91,
+      "mean_delta": -0.1,
+      "mean_rpm": 2413.2
+    },
+    {
+      "phase_id": "post_occupancy_recovery",
+      "samples": 180,
+      "duration_s": 895.4,
+      "start_co2": 445.0,
+      "end_co2": 405.0,
+      "mean_co2": 417.4,
+      "slope_ppm_min": -2.68,
+      "mean_delta": -8.2,
+      "mean_rpm": 2402.8
+    },
+    {
+      "phase_id": "unoccupied_baseline",
+      "samples": 120,
+      "duration_s": 595.3,
+      "start_co2": 536.0,
+      "end_co2": 544.0,
+      "mean_co2": 546.9,
+      "slope_ppm_min": 0.81,
+      "mean_delta": 122.6,
+      "mean_rpm": 0.0
+    },
+    {
+      "phase_id": "ventilation_100_percent",
+      "samples": 120,
+      "duration_s": 595.3,
+      "start_co2": 495.0,
+      "end_co2": 465.0,
+      "mean_co2": 477.4,
+      "slope_ppm_min": -3.02,
+      "mean_delta": 21.4,
+      "mean_rpm": 2844.3
+    },
+    {
+      "phase_id": "ventilation_60_percent",
+      "samples": 120,
+      "duration_s": 595.3,
+      "start_co2": 789.0,
+      "end_co2": 625.0,
+      "mean_co2": 722.0,
+      "slope_ppm_min": -16.53,
+      "mean_delta": 252.4,
+      "mean_rpm": 1883.0
+    },
+    {
+      "phase_id": "ventilation_80_percent",
+      "samples": 120,
+      "duration_s": 595.3,
+      "start_co2": 624.0,
+      "end_co2": 497.0,
+      "mean_co2": 553.3,
+      "slope_ppm_min": -12.8,
+      "mean_delta": 75.5,
+      "mean_rpm": 2404.6
+    }
+  ]
+}

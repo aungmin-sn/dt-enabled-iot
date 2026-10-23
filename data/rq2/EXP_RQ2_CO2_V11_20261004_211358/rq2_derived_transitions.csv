@@ -1,0 +1,23 @@
+transition_time,entity_id,derived_property,previous_value,new_value,confidence,origin,evidence,reason
+2026-10-04T08:14:03.960026+00:00,ROOM01,occupancy_context,,OCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=PRESENT.
+2026-10-04T08:14:03.960026+00:00,ROOM01,ventilation_state,,VENTILATION_OFF,HIGH,DERIVED,FAN-EXH.pwm_desired;FAN-EXH.rpm;FAN-IN-01.pwm_desired;FAN-IN-01.rpm;FAN-IN-02.pwm_desired;FAN-IN-02.rpm,No fan is commanded or physically running.
+2026-10-04T08:14:03.960026+00:00,ROOM01,heater_context,,HEATER_OFF,HIGH,DERIVED,HEATER-01.state,Mirrors current heater state as contextual evidence.
+2026-10-04T08:14:03.960026+00:00,ROOM01,opening_context,,OPENING_PRESENT,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T08:14:03.960026+00:00,ROOM01,co2_state,,CO2_NORMAL,HIGH,DERIVED,ROOM01.co2_indoor;OUTDOOR-REF.co2,Indoor CO2=534.0 ppm; indoor-outdoor delta=56.0 ppm.
+2026-10-04T08:14:03.960026+00:00,ROOM01,thermal_state,,TEMP_HIGH,HIGH,DERIVED,ROOM01.temperature_indoor;ROOM01.rh_indoor,
+2026-10-04T08:14:03.960026+00:00,FAN-EXH,health_context,,FAN_RESPONSE_NORMAL,MEDIUM,DERIVED,FAN-EXH.pwm_desired;FAN-EXH.rpm;FAN-EXH.current;FAN-EXH.vibration_rms,PWM/RPM relationship is consistent with current development rule.
+2026-10-04T08:14:03.960026+00:00,FAN-IN-01,health_context,,FAN_RESPONSE_NORMAL,MEDIUM,DERIVED,FAN-IN-01.pwm_desired;FAN-IN-01.rpm;FAN-IN-01.current;FAN-IN-01.vibration_rms,PWM/RPM relationship is consistent with current development rule.
+2026-10-04T08:14:03.960026+00:00,FAN-IN-02,health_context,,FAN_RESPONSE_NORMAL,MEDIUM,DERIVED,FAN-IN-02.pwm_desired;FAN-IN-02.rpm;FAN-IN-02.current;FAN-IN-02.vibration_rms,PWM/RPM relationship is consistent with current development rule.
+2026-10-04T08:14:03.960026+00:00,ROOM01,safety_context,,NO_RULE_ALERT,MEDIUM,DERIVED,ROOM01.occupancy;ROOM01.co2_indoor;HEATER-01.state;DOOR-01.state;WINDOW-01.state,No v1.0 combined safety rule matched.
+2026-10-04T08:14:35.317550+00:00,ROOM01,occupancy_context,OCCUPIED,UNOCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=ABSENT.
+2026-10-04T08:14:35.317550+00:00,ROOM01,opening_context,OPENING_PRESENT,ALL_CLOSED,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T08:25:10.638023+00:00,ROOM01,occupancy_context,UNOCCUPIED,OCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=PRESENT.
+2026-10-04T08:26:05.666975+00:00,ROOM01,occupancy_context,OCCUPIED,UNOCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=ABSENT.
+2026-10-04T08:26:10.671500+00:00,ROOM01,occupancy_context,UNOCCUPIED,OCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=PRESENT.
+2026-10-04T08:55:26.045493+00:00,ROOM01,ventilation_state,VENTILATION_OFF,VENTILATION_ALL_RUNNING,HIGH,DERIVED,FAN-EXH.pwm_desired;FAN-EXH.rpm;FAN-IN-01.pwm_desired;FAN-IN-01.rpm;FAN-IN-02.pwm_desired;FAN-IN-02.rpm,All three fans have RPM above the development running threshold.
+2026-10-04T09:21:01.482106+00:00,ROOM01,thermal_state,TEMP_HIGH,THERMAL_NORMAL,HIGH,DERIVED,ROOM01.temperature_indoor;ROOM01.rh_indoor,
+2026-10-04T09:25:51.245601+00:00,ROOM01,opening_context,ALL_CLOSED,OPENING_PRESENT,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T09:37:10.786864+00:00,ROOM01,opening_context,OPENING_PRESENT,ALL_CLOSED,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T09:37:45.808414+00:00,ROOM01,opening_context,ALL_CLOSED,OPENING_PRESENT,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T09:38:10.820212+00:00,ROOM01,opening_context,OPENING_PRESENT,ALL_CLOSED,HIGH,DERIVED,DOOR-01.state;WINDOW-01.state,
+2026-10-04T09:38:15.822912+00:00,ROOM01,occupancy_context,OCCUPIED,UNOCCUPIED,HIGH,DERIVED,ROOM01.occupancy,Derived from authoritative occupancy=ABSENT.

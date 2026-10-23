@@ -1,0 +1,4 @@
+repetition,node_id,value_before_dropout,value_while_publisher_down,unchanged
+1,OCC-IN-01,PRESENT,PRESENT,True
+2,OCC-IN-01,PRESENT,PRESENT,True
+3,OCC-IN-01,PRESENT,PRESENT,True

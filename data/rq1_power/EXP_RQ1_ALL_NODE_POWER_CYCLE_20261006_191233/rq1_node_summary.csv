@@ -1,0 +1,7 @@
+node_id,online_initial,telemetry_present,healthy_window_pass,stable_session,session_recovery_new_id,sequence_ok,properties_became_stale,other_nodes_fresh,recovery_to_fresh,overall_pass
+ENV-IN-01,True,True,True,True,True,True,True,True,True,True
+ENV-OUT-01,True,True,True,True,True,True,True,True,True,True
+OCC-IN-01,True,True,True,True,True,True,True,True,True,True
+VENT-CTRL-01,True,True,True,True,True,True,True,True,True,True
+HEAT-MON-01,True,True,True,True,True,True,True,True,True,True
+VIB-FAN-01,True,True,True,True,True,True,True,True,True,True

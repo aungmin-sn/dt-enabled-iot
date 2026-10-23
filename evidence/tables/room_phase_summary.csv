@@ -1,0 +1,8 @@
+phase_code,phase_name,phase_id,rows,observed_min,duty_percent,mean_exh_rpm,mean_in1_rpm,mean_in2_rpm,co2_start_ppm,co2_end_ppm,co2_max_ppm,slope_ppm_per_min,outdoor_min_ppm,outdoor_max_ppm,primary_derived_state
+P1,Unoccupied baseline,unoccupied_baseline,120,9.9,0,0,0,0,536,544,555,0.81,405,468,Unoccupied; ventilation off; all closed; CO2 normal; no rule alert
+P2,CO₂ accumulation,occupied_accumulation,360,29.9,0,0,0,0,544,789,789,8.18,407,445,Occupied; ventilation off; one 5 s occupancy reversal retained in the state record
+P3,Fan duty cycle 60%,ventilation_60_percent,120,9.9,60,1883,1849,1844,789,625,796,-16.53,430,496,All three fans running after measured RPM crossed 300
+P4,Fan duty cycle 80%,ventilation_80_percent,120,9.9,80,2405,2363,2352,624,497,624,-12.8,440,494,All-running state retained
+P5,Fan duty cycle 100%,ventilation_100_percent,120,9.9,100,2844,2797,2792,495,465,498,-3.02,438,464,All-running state retained; thermal state returns to normal
+P6,Window open,opening_assisted,120,9.9,80,2413,2391,2379,464,455,464,-0.91,440,474,Opening present; all-running state retained
+P7,CO₂ recovery,post_occupancy_recovery,180,14.9,80,2403,2358,2351,445,405,447,-2.68,408,465,Unoccupied after a 25 s door change; all closed

@@ -1,0 +1,21 @@
+{
+  "experiment_id": "EXP_RQ2_LIVE_V11_20261001_185959",
+  "physical_properties": 27,
+  "derived_properties": 10,
+  "all_derived_provenance_derived": true,
+  "rq2_subscribed_to_telemetry": false,
+  "rq1_freshness_owner": true,
+  "poll_interval_s": 1.0,
+  "values": {
+    "ROOM01.occupancy_context": "OCCUPIED",
+    "ROOM01.ventilation_state": "VENTILATION_OFF",
+    "ROOM01.heater_context": "HEATER_OFF",
+    "ROOM01.opening_context": "ALL_CLOSED",
+    "ROOM01.co2_state": "CO2_NORMAL",
+    "ROOM01.thermal_state": "TEMP_HIGH+RH_HIGH",
+    "FAN-EXH.health_context": "FAN_RESPONSE_NORMAL",
+    "FAN-IN-01.health_context": "FAN_RESPONSE_NORMAL",
+    "FAN-IN-02.health_context": "FAN_RESPONSE_NORMAL",
+    "ROOM01.safety_context": "NO_RULE_ALERT"
+  }
+}

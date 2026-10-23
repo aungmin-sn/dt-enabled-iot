@@ -1,0 +1,89 @@
+{
+  "run_config_version": "rq2-controlled-physical-pilot-v1.0",
+  "poll_interval_s": 1.0,
+  "default_timeout_s": 120,
+  "steps": [
+    {
+      "id": "unoccupied_fans_off",
+      "name": "Unoccupied fans off",
+      "manual_action": "Ensure room is unoccupied and all fans are off.",
+      "expected": {
+        "ROOM01.occupancy_context": "UNOCCUPIED",
+        "ROOM01.ventilation_state": "VENTILATION_OFF"
+      }
+    },
+    {
+      "id": "occupant_enters",
+      "name": "Occupant enters",
+      "manual_action": "Enter the room and remain within occupancy sensor coverage.",
+      "expected": {
+        "ROOM01.occupancy_context": "OCCUPIED"
+      }
+    },
+    {
+      "id": "all_fans_run",
+      "name": "All fans run",
+      "manual_action": "Command all three fans to a nonzero operating point.",
+      "expected": {
+        "ROOM01.ventilation_state": "VENTILATION_ALL_RUNNING"
+      }
+    },
+    {
+      "id": "exhaust_commanded_no_rotation",
+      "name": "Exhaust commanded no rotation",
+      "manual_action": "Create a safe exhaust-fan non-response condition while command remains nonzero.",
+      "expected": {
+        "FAN-EXH.health_context": "COMMAND_NO_ROTATION"
+      }
+    },
+    {
+      "id": "exhaust_restored",
+      "name": "Exhaust restored",
+      "manual_action": "Restore normal exhaust-fan operation.",
+      "expected": {
+        "FAN-EXH.health_context": "FAN_RESPONSE_NORMAL"
+      }
+    },
+    {
+      "id": "window_open",
+      "name": "Window open",
+      "manual_action": "Open the window.",
+      "expected": {
+        "ROOM01.opening_context": "OPENING_PRESENT"
+      }
+    },
+    {
+      "id": "window_closed",
+      "name": "Window closed",
+      "manual_action": "Close the window and ensure door is closed.",
+      "expected": {
+        "ROOM01.opening_context": "ALL_CLOSED"
+      }
+    },
+    {
+      "id": "heater_level_1",
+      "name": "Heater level 1",
+      "manual_action": "Set heater to level 1 with room occupied and known openings closed.",
+      "expected": {
+        "ROOM01.heater_context": "HEATER_LEVEL1",
+        "ROOM01.safety_context": "OCCUPIED_HEATING_CLOSED_ROOM"
+      }
+    },
+    {
+      "id": "heater_off",
+      "name": "Heater off",
+      "manual_action": "Turn heater off.",
+      "expected": {
+        "ROOM01.heater_context": "HEATER_OFF"
+      }
+    },
+    {
+      "id": "occupant_leaves",
+      "name": "Occupant leaves",
+      "manual_action": "Leave the room and wait for occupancy to become absent.",
+      "expected": {
+        "ROOM01.occupancy_context": "UNOCCUPIED"
+      }
+    }
+  ]
+}

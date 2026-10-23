@@ -1,0 +1,14 @@
+{
+  "version": "freshness-v1",
+  "classes": {
+    "FAST": {
+      "stale_after_s": 10
+    },
+    "MEDIUM": {
+      "stale_after_s": 30
+    },
+    "EVENT": {
+      "stale_after_s": 300
+    }
+  }
+}

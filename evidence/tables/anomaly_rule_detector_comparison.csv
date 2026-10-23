@@ -1,0 +1,13 @@
+scenario,severity,method_family,method,applicable,events,detected,event_recall,median_delay_s,max_delay_s,interval_precision,interval_f1
+S05,exhaust stopped,rule,expanded_no_response,True,9,9,1.0,15.003893000000062,15.006507000000056,1.0,1.0
+S05,exhaust stopped,residual_detector,fan_residual,True,9,9,1.0,0.0,0.0,1.0,1.0
+S06,30% below measured speed,rule,expanded_degraded_response,True,9,0,0.0,,,,
+S06,30% below measured speed,residual_detector,fan_residual,True,9,9,1.0,0.0,0.0,1.0,1.0
+S11,500 ppm,rule,expanded_co2_spike,True,9,9,1.0,0.0,0.0,1.0,1.0
+S11,500 ppm,residual_detector,mass_balance_co2_residual_negative_check,False,9,0,0.0,,,0.0,
+S08,300 RPM,rule,expanded_uncommanded_rotation,True,9,9,1.0,15.004340000000013,15.005995000000041,1.0,1.0
+S08,300 RPM,residual_detector,fan_residual,True,9,9,1.0,0.0,0.0,1.0,1.0
+S08,1000 RPM,rule,expanded_uncommanded_rotation,True,9,9,1.0,15.004340000000013,15.005995000000041,1.0,1.0
+S08,1000 RPM,residual_detector,fan_residual,True,9,9,1.0,0.0,0.0,1.0,1.0
+S08,2000 RPM,rule,expanded_uncommanded_rotation,True,9,9,1.0,15.004340000000013,15.005995000000041,1.0,1.0
+S08,2000 RPM,residual_detector,fan_residual,True,9,9,1.0,0.0,0.0,1.0,1.0

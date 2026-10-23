@@ -1,0 +1,106 @@
+{
+  "version": "rq2-co2-trajectory-v1.1",
+  "sampling_interval_s": 5,
+  "canonical_window_s": 60,
+  "ventilation_trigger_ppm": 800,
+  "ventilation_duty_sequence_percent": [
+    60,
+    80,
+    100
+  ],
+  "development_thresholds_ppm": {
+    "normal_max": 1000,
+    "elevated_max": 1500
+  },
+  "phases": [
+    {
+      "id": "unoccupied_baseline",
+      "name": "Unoccupied baseline",
+      "target_minutes": 10,
+      "target_condition": {
+        "occupancy": "ABSENT",
+        "fans_duty_percent": 0,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      }
+    },
+    {
+      "id": "occupied_accumulation",
+      "name": "Occupied accumulation",
+      "target_minutes": 30,
+      "target_condition": {
+        "occupancy": "PRESENT",
+        "fans_duty_percent": 0,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      },
+      "transition_condition": "Begin staged ventilation at approximately 800 ppm or at end of planned accumulation window."
+    },
+    {
+      "id": "ventilation_60_percent",
+      "name": "Ventilation 60 percent",
+      "target_minutes": 10,
+      "target_condition": {
+        "occupancy": "PRESENT",
+        "fans_duty_percent": 60,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      }
+    },
+    {
+      "id": "ventilation_80_percent",
+      "name": "Ventilation 80 percent",
+      "target_minutes": 10,
+      "target_condition": {
+        "occupancy": "PRESENT",
+        "fans_duty_percent": 80,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      }
+    },
+    {
+      "id": "ventilation_100_percent",
+      "name": "Ventilation 100 percent",
+      "target_minutes": 10,
+      "target_condition": {
+        "occupancy": "PRESENT",
+        "fans_duty_percent": 100,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      }
+    },
+    {
+      "id": "opening_assisted",
+      "name": "Opening-assisted ventilation",
+      "target_minutes": 10,
+      "target_condition": {
+        "occupancy": "PRESENT",
+        "fans_duty_percent": 80,
+        "window": "OPEN",
+        "door": "CLOSED"
+      }
+    },
+    {
+      "id": "post_occupancy_recovery",
+      "name": "Post-occupancy recovery",
+      "target_minutes": 15,
+      "target_condition": {
+        "occupancy": "ABSENT",
+        "fans_duty_percent": 80,
+        "window": "CLOSED",
+        "door": "CLOSED"
+      }
+    }
+  ],
+  "safety": {
+    "do_not_intentionally_generate_CO2": true,
+    "stop_if_uncomfortable": true,
+    "stop_if_co2_ppm_reaches": 1500,
+    "note": "1500 ppm is an experiment stop point, not a health-limit claim."
+  },
+  "notes": {
+    "trigger_boundary": "800 ppm is an experiment trigger, not a health/safety threshold.",
+    "duty_boundary": "60/80/100 percent are controlled actuator settings.",
+    "analysis_note": "Compare CO2 slope and indoor-outdoor delta across fan-duty phases."
+  }
+}

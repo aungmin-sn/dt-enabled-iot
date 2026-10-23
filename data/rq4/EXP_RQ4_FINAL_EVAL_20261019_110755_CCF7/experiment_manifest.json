@@ -1,0 +1,45 @@
+{
+  "experiment_id": "EXP_RQ4_FINAL_EVAL_20261019_110755_CCF7",
+  "scenario_id": "RQ4-FINAL-EVALUATION-SESSION-3",
+  "evaluation": "command_check",
+  "phase": "EVALUATION",
+  "dataset_role": "PRIMARY_RQ4_EVALUATION",
+  "protocol_status": "FROZEN",
+  "thresholds_frozen": true,
+  "run_config_version": "rq4-final-evaluation-v1",
+  "procedure_version": "rq4-final-evaluation-v1",
+  "registry_version": "room01-entity-registry-v1.3",
+  "session": 3,
+  "fan_order": [
+    "FAN-IN-02",
+    "FAN-EXH",
+    "FAN-IN-01"
+  ],
+  "sequence_pwm_pct": [
+    0,
+    50,
+    100,
+    30,
+    70,
+    0
+  ],
+  "target_entities": [
+    "FAN-IN-02",
+    "FAN-EXH",
+    "FAN-IN-01"
+  ],
+  "ack_timeout_s": 2,
+  "physical_response_timeout_s": 15,
+  "stopped_rpm_max": 150,
+  "running_rpm_min": 300,
+  "consecutive_qualifying_observations": 3,
+  "settled_confirmation_s": 5,
+  "primary_evidence": "rpm",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-18T22:07:55.007256+00:00",
+  "end_time": "2026-10-18T22:11:33.089379+00:00",
+  "result": "PASS",
+  "error": null
+}

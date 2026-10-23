@@ -1,0 +1,43 @@
+scope_type,scope,measure,n,min_ms,mean_ms,median_ms,p95_ms,max_ms
+all,all,create_to_send,54,0.0,0.336,0.0,1.014,1.506
+all,all,sent_to_ack,54,136.113,263.882,256.986,392.459,488.789
+all,all,ack_to_first_threshold_sample,54,467.671,1099.664,824.572,1926.733,2117.103
+all,all,ack_to_third_consecutive_threshold_sample,54,2442.446,3190.615,2893.546,4067.552,5106.922
+all,all,ack_to_assessment_sample,54,5631.245,6605.328,6668.484,7970.859,8801.708
+all,all,sent_to_assessment_decision,54,6018.066,6869.21,6945.978,8214.14,9131.497
+sequence,Ascending-order sequence,create_to_send,18,0.0,0.167,0.0,1.001,1.002
+sequence,Ascending-order sequence,sent_to_ack,18,136.113,241.186,233.887,325.06,329.789
+sequence,Ascending-order sequence,ack_to_first_threshold_sample,18,467.671,1078.596,810.596,1872.292,1889.108
+sequence,Ascending-order sequence,ack_to_third_consecutive_threshold_sample,18,2442.446,3115.793,2821.742,3951.524,3987.197
+sequence,Ascending-order sequence,ack_to_assessment_sample,18,5746.457,6618.901,6646.639,8071.594,8801.708
+sequence,Ascending-order sequence,sent_to_assessment_decision,18,6018.066,6860.087,6930.733,8285.083,9131.497
+sequence,Descending-order sequence,create_to_send,18,0.0,0.558,0.748,1.088,1.506
+sequence,Descending-order sequence,sent_to_ack,18,190.233,275.2,260.861,412.567,488.789
+sequence,Descending-order sequence,ack_to_first_threshold_sample,18,621.047,1084.082,824.416,1824.609,2116.538
+sequence,Descending-order sequence,ack_to_third_consecutive_threshold_sample,18,2582.958,3162.788,2968.211,4025.438,4204.424
+sequence,Descending-order sequence,ack_to_assessment_sample,18,5631.245,6514.907,6674.028,7336.33,7663.981
+sequence,Descending-order sequence,sent_to_assessment_decision,18,6052.252,6790.107,6945.978,7607.672,7928.485
+sequence,Permuted-order sequence,create_to_send,18,0.0,0.284,0.0,1.025,1.09
+sequence,Permuted-order sequence,sent_to_ack,18,197.013,275.261,259.724,394.261,424.785
+sequence,Permuted-order sequence,ack_to_first_threshold_sample,18,655.33,1136.314,830.943,2000.232,2117.103
+sequence,Permuted-order sequence,ack_to_third_consecutive_threshold_sample,18,2594.707,3293.264,2893.546,4484.784,5106.922
+sequence,Permuted-order sequence,ack_to_assessment_sample,18,5745.393,6682.175,6560.676,8099.979,8535.842
+sequence,Permuted-order sequence,sent_to_assessment_decision,18,6027.319,6957.436,6799.812,8440.629,8898.743
+fan,FAN-EXH,create_to_send,18,0.0,0.278,0.0,1.006,1.014
+fan,FAN-EXH,sent_to_ack,18,136.113,264.413,255.616,434.386,488.789
+fan,FAN-EXH,ack_to_first_threshold_sample,18,621.047,1116.186,861.167,1873.665,1898.262
+fan,FAN-EXH,ack_to_third_consecutive_threshold_sample,18,2582.958,3255.526,2881.644,4484.784,5106.922
+fan,FAN-EXH,ack_to_assessment_sample,18,5631.245,6678.247,6709.382,7885.182,7942.75
+fan,FAN-EXH,sent_to_assessment_decision,18,6018.066,6942.66,6957.34,8133.792,8135.716
+fan,FAN-IN-01,create_to_send,18,0.0,0.391,0.0,1.088,1.506
+fan,FAN-IN-01,sent_to_ack,18,190.233,268.397,257.098,368.333,399.116
+fan,FAN-IN-01,ack_to_first_threshold_sample,18,467.671,1103.857,767.137,2116.623,2117.103
+fan,FAN-IN-01,ack_to_third_consecutive_threshold_sample,18,2442.446,3165.737,2877.633,3984.108,4204.424
+fan,FAN-IN-01,ack_to_assessment_sample,18,5847.184,6613.28,6561.455,8099.979,8535.842
+fan,FAN-IN-01,sent_to_assessment_decision,18,6058.045,6881.677,6863.988,8440.629,8898.743
+fan,FAN-IN-02,create_to_send,18,0.0,0.339,0.0,1.019,1.09
+fan,FAN-IN-02,sent_to_ack,18,197.986,258.836,266.503,334.896,363.833
+fan,FAN-IN-02,ack_to_first_threshold_sample,18,624.444,1078.948,833.562,1781.386,1828.385
+fan,FAN-IN-02,ack_to_third_consecutive_threshold_sample,18,2565.056,3150.583,2909.353,3988.195,3993.852
+fan,FAN-IN-02,ack_to_assessment_sample,18,5745.393,6524.457,6684.924,7506.989,8801.708
+fan,FAN-IN-02,sent_to_assessment_decision,18,6027.319,6783.292,6957.905,7788.124,9131.497

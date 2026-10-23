@@ -1,0 +1,15 @@
+{
+  "experiment_id": "EXP_RQ2_LIVE_V11_20261001_185959",
+  "scenario_id": "RQ2-LIVE-INTEGRATION-V1.1",
+  "research_question": "RQ2",
+  "phase": "INTEGRATION",
+  "registry_version": "room01-entity-registry-v1.2",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "fusion": "IndoorTwin RQ2 Live Integration v1.1",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "poll_interval_s": 1.0,
+  "start_time": "2026-10-01T05:59:59.602902+00:00",
+  "end_time": "2026-10-01T06:00:27.751576+00:00"
+}

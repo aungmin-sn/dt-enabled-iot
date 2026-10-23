@@ -1,0 +1,16 @@
+{
+  "package": "IndoorTwin RQ1 All-Node Physical Power-Cycle Evaluation v1.0",
+  "power_cycle_nodes": [
+    "ENV-IN-01",
+    "ENV-OUT-01",
+    "OCC-IN-01",
+    "HEAT-MON-01",
+    "VIB-FAN-01",
+    "VENT-CTRL-01"
+  ],
+  "not_tested": [],
+  "intervention_method": "PHYSICAL_POWER_CYCLE",
+  "definition": "Electrical power was physically removed and restored for every tested node.",
+  "bootloader_hold_used": false,
+  "repetitions": 1
+}

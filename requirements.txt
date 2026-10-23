@@ -1,0 +1,9 @@
+numpy>=2.3,<3
+pandas>=2.3,<4
+matplotlib>=3.10,<4
+pillow>=12,<14
+ipython>=9,<10
+nbformat>=5.10,<6
+nbclient>=0.10,<1
+ipykernel>=7,<8
+tzdata>=2025.1

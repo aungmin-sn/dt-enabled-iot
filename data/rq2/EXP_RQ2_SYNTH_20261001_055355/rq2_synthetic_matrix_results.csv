@@ -1,0 +1,15 @@
+scenario_id,name,entity_property,expected,observed,pass,reason
+RQ2-01,"Occupied, normal CO2",ROOM01.occupancy_context,OCCUPIED,OCCUPIED,True,Derived from authoritative occupancy=PRESENT.
+RQ2-01,"Occupied, normal CO2",ROOM01.co2_state,CO2_NORMAL,CO2_NORMAL,True,Indoor CO2=800.0 ppm
+RQ2-02,"Occupied, high CO2",ROOM01.safety_context,OCCUPIED_HIGH_CO2,OCCUPIED_HIGH_CO2,True,Occupied room with high CO2.
+RQ2-03,Occupancy stale,ROOM01.occupancy_context,OCCUPANCY_UNKNOWN,OCCUPANCY_UNKNOWN,True,Occupancy input unavailable or stale.
+RQ2-04,All fans off,ROOM01.ventilation_state,VENTILATION_OFF,VENTILATION_OFF,True,No fan is commanded or physically running.
+RQ2-05,All fans running,ROOM01.ventilation_state,VENTILATION_ALL_RUNNING,VENTILATION_ALL_RUNNING,True,All three fans have RPM above the development running threshold.
+RQ2-06,One or two fans running,ROOM01.ventilation_state,VENTILATION_PARTIAL,VENTILATION_PARTIAL,True,1/3 fans physically running.
+RQ2-07,Command but no RPM,FAN-EXH.health_context,COMMAND_NO_ROTATION,COMMAND_NO_ROTATION,True,Fan commanded above zero but RPM below running threshold.
+RQ2-08,Rotation with zero command,FAN-EXH.health_context,UNCOMMANDED_ROTATION,UNCOMMANDED_ROTATION,True,RPM indicates rotation while desired PWM is zero.
+RQ2-09,Window/door open,ROOM01.opening_context,OPENING_PRESENT,OPENING_PRESENT,True,
+RQ2-10,"Heater active, occupied, closed",ROOM01.safety_context,OCCUPIED_HEATING_CLOSED_ROOM,OCCUPIED_HEATING_CLOSED_ROOM,True,"Occupied room, heater active, known door/window closed."
+RQ2-11,Indoor/outdoor CO2 available,ROOM01.co2_state,CO2_NORMAL,CO2_NORMAL,True,Indoor CO2=900.0 ppm; indoor-outdoor delta=480.0 ppm.
+RQ2-12,Environmental input stale,ROOM01.co2_state,CO2_UNKNOWN,CO2_UNKNOWN,True,Indoor CO2 unavailable or stale.
+RQ2-12,Environmental input stale,ROOM01.thermal_state,THERMAL_UNKNOWN,THERMAL_UNKNOWN,True,

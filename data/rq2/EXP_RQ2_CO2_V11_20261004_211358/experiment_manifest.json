@@ -1,0 +1,13 @@
+{
+  "experiment_id": "EXP_RQ2_CO2_V11_20261004_211358",
+  "scenario_id": "RQ2-CO2-TRAJECTORY-V1.1",
+  "evaluation": "room_state",
+  "phase": "CO2_TRAJECTORY",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "fusion": "IndoorTwin RQ2 Live Integration v1.1",
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-04T08:13:58.952735+00:00",
+  "end_time": "2026-10-04T09:52:11.369640+00:00"
+}

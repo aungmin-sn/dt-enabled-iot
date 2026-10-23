@@ -1,0 +1,65 @@
+{
+  "registry_extension_version": "rq2-derived-v1.0",
+  "properties": [
+    {
+      "entity_id": "ROOM01",
+      "property": "occupancy_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "ventilation_state",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "heater_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "opening_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "co2_state",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "thermal_state",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "ROOM01",
+      "property": "safety_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "FAN-EXH",
+      "property": "health_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "FAN-IN-01",
+      "property": "health_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    },
+    {
+      "entity_id": "FAN-IN-02",
+      "property": "health_context",
+      "dtype": "string",
+      "provenance": "DERIVED"
+    }
+  ]
+}

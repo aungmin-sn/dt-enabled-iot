@@ -1,0 +1,20 @@
+{
+  "classification_accuracy": 1.0,
+  "correct_expected_states": 12,
+  "total_expected_states": 12,
+  "steps_passed": 10,
+  "steps_total": 10,
+  "latency_ms": {
+    "min": 1,
+    "median": 2.0,
+    "mean": 170.0,
+    "max": 2018
+  },
+  "unknown_state_handling": "stale physical input maps to derived UNKNOWN",
+  "stack": "RQ1 Backend v1.2 + RQ2 Live Integration v1.1",
+  "evidence": {
+    "P01_P02_P04_to_P10": "EXP_RQ2_PHYS_V11_20261001_190449",
+    "P03": "EXP_RQ2_P03_RETEST_20261001_212343"
+  },
+  "note": "Final pass states after COM20 Uno replacement P03 retest. Single-run metrics. Do not overstate precision/recall from this pilot."
+}

@@ -1,0 +1,25 @@
+{
+  "experiment_id": "EXP_RQ1_ALL_NODE_POWER_CYCLE_20261006_191233",
+  "scenario_id": "ALL-NODE-PHYSICAL-POWER-CYCLE-V1.0",
+  "evaluation": "state_freshness",
+  "phase": "PHYSICAL_POWER_CYCLE",
+  "registry_version": "room01-entity-registry-v1.3",
+  "backend": "IndoorTwin RQ1 Backend v1.2",
+  "intervention_method": "PHYSICAL_POWER_CYCLE",
+  "power_cycle_order": [
+    "ENV-IN-01",
+    "ENV-OUT-01",
+    "OCC-IN-01",
+    "HEAT-MON-01",
+    "VIB-FAN-01",
+    "VENT-CTRL-01"
+  ],
+  "repetitions": 1,
+  "run_mode": "LIVE",
+  "broker_host": "127.0.0.1",
+  "broker_port": 1883,
+  "start_time": "2026-10-06T06:12:33.361013+00:00",
+  "end_time": "2026-10-06T06:17:30.217401+00:00",
+  "run_status": "COMPLETE",
+  "stop_reason": "COMPLETE"
+}
