@@ -26,3 +26,6 @@ This repository provides supporting evidence for dissertation markers and examin
 - [Data and evaluation notes](DATA_NOTES.md): record scope, units, interpretation and optional regeneration.
 
 The repository includes seven executed notebooks, 18 evaluated plots and 24 evaluation tables. Supporting calculation code is in `src/`. No rerun is required to review the evidence.
+
+# Indoor Digital Twin Demo
+![App Demo](assests/Demo_DT.gif)
