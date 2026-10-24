@@ -1,3 +1,7 @@
+# Indoor Digital Twin Demo
+![App Demo](assets/Demo_DT.gif)
+<br>
+
 # IndoorTwin Dissertation Evidence
 
 Supporting data, saved plots and evaluation notebooks for **Digital Twin-Enabled Edge-IoT: Towards Indoor Environmental and Safety-Awareness Monitoring**.
@@ -27,5 +31,4 @@ This repository provides supporting evidence for dissertation markers and examin
 
 The repository includes seven executed notebooks, 18 evaluated plots and 24 evaluation tables. Supporting calculation code is in `src/`. No rerun is required to review the evidence.
 
-# Indoor Digital Twin Demo
-![App Demo](assests/Demo_DT.gif)
+
